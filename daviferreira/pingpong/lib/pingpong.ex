@@ -14,9 +14,9 @@ defmodule PingPong do
       {true, true} ->
         "PingPong"
       {true, false} ->
-        "Ping"
-      {false, true} ->
         "Pong"
+      {false, true} ->
+        "Ping"
       _ ->
         x
     end
